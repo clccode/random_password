@@ -1,0 +1,77 @@
+body {
+    background: #1C1C1C;
+    color: #F3F4F6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+#main {
+    width: 75%;
+    margin: 0 auto;
+    padding: 75px 0;
+    margin-bottom: 30px;
+    padding-bottom: 55px;
+    text-align: start;
+}
+
+/* Password generator button styling */
+button {
+    border: none;
+    border-radius: 5px;
+}
+
+#generate-pw:active {
+    background-color: #10B981;
+    box-shadow: 0 2px #2F3E53;
+    transform: translateY(2px);
+}
+
+/* Horizontal rule */
+hr {
+    color: #2F3E53;
+    margin-top: 40px;
+}
+
+/* Value input */
+#pw-length {
+    margin-bottom: 25px;
+}
+
+/* Password buttons styling */
+.generate {
+    margin: 2px 0;
+}
+
+#heading {
+    width: 100%;
+}
+
+#random-pw {
+    color: #10B981;
+}
+
+#generate-pw {
+    background: #10B981;
+    color: #F3F4F6;
+    padding: 10px 8px;
+}
+
+.pw-btn {
+    height: 50px;
+    width: 200px;
+    background: #1F2937;
+    color: #10B981;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.pw-btn:active {
+    background: #1F2937;
+    box-shadow: 0 2px #10B981;
+    transform: translateY(2px);
+}

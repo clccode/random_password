@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Random Password Generator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Main section -->
+        <div id="main">
+            <div id="title">
+                <h1 class="generate">Generate a</h1>
+                <h1 class="generate" id="random-pw">random password</h1>
+            </div>
+            <p>Never use an insecure password again</p>
+            <h4>Password length (minimum: 8; maximum: 17)</h4>
+            <input id="pw-length" type="number" min="8" max="17" value="8">
+            
+            <!-- Generate password section -->
+            <div>
+                <button id="generate-pw" onclick=showPass()>Generate Passwords</button>
+            </div>
+
+            <hr>
+
+            <!-- Show the password section -->
+            <button class="pw-btn" id="password-1"></button>
+            <button class="pw-btn" id="password-2"></button>
+        
+        </div>  
+        <script src="index.js"></script>
+    </body>
+</html>
