@@ -61,12 +61,16 @@ hr {
     padding: 10px 8px;
 }
 
+.password-select {
+    margin: 15px 0;
+}
+
 .pw-btn {
     height: 50px;
     width: 200px;
     background: #1F2937;
     color: #10B981;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 25px;
 }
 
