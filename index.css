@@ -7,7 +7,7 @@ body {
 }
 
 p {
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
 }
 
 /* General Layout */
@@ -15,7 +15,7 @@ p {
 .main {
     width: 75%;
     margin: 0 auto;
-    padding: 75px 0;
+    padding: 4.5em 0;
     margin-bottom: 30px;
     padding-bottom: 55px;
     text-align: start;
@@ -45,12 +45,12 @@ button {
 /* Horizontal rule */
 hr {
     color: #2F3E53;
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 /* Value input */
 #pw-length {
-    margin-bottom: 25px;
+    margin-bottom: 1.5em;
 }
 
 @media (max-width: 600px) {
