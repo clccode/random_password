@@ -53,12 +53,6 @@ hr {
     margin-bottom: 1.5em;
 }
 
-@media (max-width: 600px) {
-    #pw-length {
-        width: 180px;
-    }
-}
-
 /* Password buttons styling */
 .generate {
     margin: 2px 0;
