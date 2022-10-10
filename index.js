@@ -14,7 +14,8 @@ let copyButton2 = document.getElementById("password-2")
 function genPass() {
     let pw = ""
     for (let i = 0; i < pwLength.value; i++) {
-        pwLength.value > 7 && pwLength.value < 18 ? pw += characters[Math.floor(Math.random() * characters.length)]
+        pwLength.value > 7 && pwLength.value < 18 
+        ? pw += characters[Math.floor(Math.random() * characters.length)]
         : pw = "Please select a number between 8 and 17"
         }
         return pw
